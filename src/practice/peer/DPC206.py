@@ -17,7 +17,7 @@ def reverse( num_str ):
     return n_rev
 
 def main():
-    for i in xrange( int( sys.stdin.readline() ) ):
+    for _ in xrange( int( sys.stdin.readline() ) ):
         num, steps = int( sys.stdin.readline() ), 0
         while True:
             rev_num = reverse( num )

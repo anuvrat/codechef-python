@@ -6,7 +6,7 @@ def count_letters( word ):
     return chars
 
 def main():
-    for i in xrange( int( sys.stdin.readline() ) ):
+    for _ in xrange( int( sys.stdin.readline() ) ):
         a, b = sys.stdin.readline().split()
         if count_letters( a ) == count_letters( b ): print "YES"
         else: print "NO"

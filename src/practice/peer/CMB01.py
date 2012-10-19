@@ -8,7 +8,7 @@ def reverse( num_str ):
     return n_rev
 
 def main():
-    for i in xrange( int( sys.stdin.readline() ) ):
+    for _ in xrange( int( sys.stdin.readline() ) ):
         a , b = map( reverse, sys.stdin.readline().split() )
         print reverse( a + b )
 
